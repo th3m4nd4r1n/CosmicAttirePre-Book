@@ -38,6 +38,7 @@ button.menu:hover{
   height: 80vh;
   justify-content: center;
   padding-left: 15vw;
+  z-index: 2;
 }
 h1{
   color: rgba(255, 255, 255, 0.91);
@@ -57,4 +58,14 @@ h1{
   font-size: 24px;
   line-height: 32px;
 
+}
+/* Model */
+div.canv{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  z-index: 1;
 }
