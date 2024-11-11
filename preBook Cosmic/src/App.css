@@ -69,3 +69,48 @@ div.canv{
   height: 90vh;
   z-index: 1;
 }
+/* Features */
+div.imagePane img{
+  height: 28vh;
+  width: 40vw;
+  margin: 1vh;
+  border-radius: 5%;
+  position: relative;
+  /* border: 2px solid black; */
+}
+div.imagePane{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+h2{
+font-family: kanit;
+  position: absolute;
+  color: rgba(57, 62, 70, 0.74);
+  font-size: 15vh;
+  margin: 3%;
+  margin-left: 8.5%;
+  margin-top: 0%;
+}
+p.descFeature{
+  /* font-size: 36px; */
+  color: white;
+  position: absolute;
+  display: inline-block;
+  left: 40%;
+  transform: translateX(-142%);
+  top: 26%;
+  font-family: kanit;
+  font-weight: 700;
+  font-size: 34px;
+}
+iframe{
+  position: absolute;
+  top: 59%;
+  left: 9.4%;
+  height: 38%;
+  width: 40.3%;
+}
+

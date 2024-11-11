@@ -6,18 +6,18 @@ const Header = () => {
         <ul className="nav">
             
             <li>
-                <a href="#home"><button className="menu">Home</button></a>
+                <a href="/"><button className="menu">Home</button></a>
 
             </li>
             <li>
-                <a href="#features"><button className="menu">Features</button></a>
+                <a href="/features"><button className="menu">Features</button></a>
             </li>
             <li>
-                <a href="#reviews"><button className="menu">Reviews</button></a>
+                <a href="/reviews"><button className="menu">Reviews</button></a>
 
             </li>
             <li>
-                <a href="#aboutus"><button className="menu">About Us</button></a>
+                <a href="/aboutus"><button className="menu">About Us</button></a>
             </li>
         </ul>   
         
