@@ -1,4 +1,4 @@
-import { meshBounds, useGLTF } from "@react-three/drei";
+import { Environment, meshBounds, useGLTF } from "@react-three/drei";
 import React from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
@@ -29,6 +29,7 @@ const Model = () => {
     return (<>
       <pointLight ref={refRot} color={'wheat'} intensity={20} />
       <pointLight ref={refRot2} color={'gray'} intensity={20} />
+      <Environment preset="studio" environmentIntensity={0.028} />
       <mesh ref={ref} >
         <primitive object={scene} scale={0.15} />
       </mesh>

@@ -3,6 +3,7 @@ import Hero from '../components/hero'
 import Model from '../components/Model'
 import { Environment, OrbitControls } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber' 
+import Book from '../components/bookNow'
 const Home = () => {
     return (
         <>
@@ -19,6 +20,7 @@ const Home = () => {
           </Canvas>
           </div>
           <Hero />
+          <Book />
         </>
       )
 }

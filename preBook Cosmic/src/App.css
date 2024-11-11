@@ -24,6 +24,7 @@ line-height: 48px;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 text-transform: uppercase;
 transition:0.2s text-shadow;
+cursor:pointer;
 
 }
 button.menu:hover{
@@ -68,6 +69,7 @@ div.canv{
   width: 100vw;
   height: 90vh;
   z-index: 1;
+  
 }
 /* Features */
 div.imagePane img{
@@ -109,8 +111,47 @@ p.descFeature{
 iframe{
   position: absolute;
   top: 59%;
-  left: 9.4%;
+  left: 9.2%;
   height: 38%;
   width: 40.3%;
+  border-radius: 2%;
+  
 }
+
+button.book{
+  color: black;
+  font-family: kanit;
+  font-weight: 600;
+  border-radius: 1vw;
+  font-size: 36px;
+  /* background-color: white; */
+  position: absolute;
+  right: 70%;
+  height: 75px;
+  width: 286px;
+  top: 85%;
+  background: rgba(255, 255, 255, 0.629);
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+  
+
+}
+div.blur{
+  position: absolute;
+  right: 70%;
+  height: 75px;
+  width: 286px;
+  top: 85%;
+  background-color: white;
+  z-index: 4;
+  background: rgb(255, 255, 255);
+  filter: blur(25px);
+  transition: 0.2s filter;
+}
+div.blur:hover{
+  filter: blur(50px);
+  transition-delay: 0.1s;
+}
+
 
