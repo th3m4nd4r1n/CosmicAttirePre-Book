@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import React from 'react'
 import ReactDom from 'react-dom/client'
+import Review from './pages/reviews'
 import './App.css'
 import './index.css'
 import { createBrowserRouter,
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/features",
     element: <Features />
+  },
+  {
+    path: "/reviews",
+    element: <Review />
   },
   ])
   ReactDom.createRoot(document.getElementById("root")).render(

@@ -155,3 +155,18 @@ div.blur:hover{
 }
 
 
+div.review{
+  display: grid;
+grid-row: 3;
+
+}
+.card
+{
+  background-color: white;
+  height: 300px;
+  width: 30vw;
+
+  margin: 2%;
+
+
+}
