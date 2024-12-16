@@ -8,6 +8,8 @@ const Home = () => {
     return (
         <>
           <Header />
+          <div className="bigBox">
+
           <div className="canv">
           <Canvas className='webgl'> 
             <Environment preset='studio' environmentIntensity={0.03} />
@@ -21,6 +23,7 @@ const Home = () => {
           </div>
           <Hero />
           <Book />
+          </div>
         </>
       )
 }

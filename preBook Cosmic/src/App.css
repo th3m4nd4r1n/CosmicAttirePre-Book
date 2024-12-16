@@ -10,7 +10,8 @@
   /* display: inline-flex; */
   justify-content: space-around;
   flex-wrap: nowrap;
-  
+  position:sticky;
+  background-color: black;
 }
 button.menu{
   background-color: transparent;
@@ -72,51 +73,7 @@ div.canv{
   
 }
 /* Features */
-div.imagePane img{
-  height: 28vh;
-  width: 40vw;
-  margin: 1vh;
-  border-radius: 5%;
-  position: relative;
-  /* border: 2px solid black; */
-}
-div.imagePane{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
 
-}
-h2{
-font-family: kanit;
-  position: absolute;
-  color: rgba(57, 62, 70, 0.74);
-  font-size: 15vh;
-  margin: 3%;
-  margin-left: 8.5%;
-  margin-top: 0%;
-}
-p.descFeature{
-  /* font-size: 36px; */
-  color: white;
-  position: absolute;
-  display: inline-block;
-  left: 40%;
-  transform: translateX(-142%);
-  top: 26%;
-  font-family: kanit;
-  font-weight: 700;
-  font-size: 34px;
-}
-iframe{
-  position: absolute;
-  top: 59%;
-  left: 9.2%;
-  height: 38%;
-  width: 40.3%;
-  border-radius: 2%;
-  
-}
 
 button.book{
   color: black;
@@ -169,4 +126,32 @@ grid-row: 3;
   margin: 2%;
 
 
+}
+
+/* video set */
+
+
+div.bigBox{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(black, rgb(31, 30, 30));
+  background-size:auto;
+}
+
+div.video
+{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgb(31, 30, 30),black);
+  background-size:auto;
+}
+
+iframe.video{
+  width: 90vw;
+  height: 90vh;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border-radius: 15px;
+  border: 2px solid rgba(245, 222, 179, 0.343) ;
 }

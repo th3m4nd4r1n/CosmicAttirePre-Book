@@ -9,20 +9,22 @@ import { createBrowserRouter,
   RouterProvider,
  } from "react-router-dom"
 import Home from './pages/home'
-import Features from './pages/features'
+import Scrolling from './Scrolling'
+
+// import { Scroll } from '@react-three/drei'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Scrolling />
   
   
   
   },
   {
     path: "/features",
-    element: <Features />
+   
   },
   {
     path: "/reviews",
