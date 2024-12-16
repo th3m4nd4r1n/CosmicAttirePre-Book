@@ -22,7 +22,7 @@ const Model = () => {
    tick();
 
     // 
- const { scene } = useGLTF('public/models/bracelet.gltf');
+ const { scene } = useGLTF('models/bracelet.gltf');
  const ref = useRef();
  const refRot = useRef();
  const refRot2 = useRef();
