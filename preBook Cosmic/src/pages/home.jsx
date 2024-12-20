@@ -5,6 +5,7 @@ import { Environment, OrbitControls } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber' 
 import Book from '../components/bookNow'
 import {lazy, Suspense} from 'react'
+import { Loader } from '@react-three/drei'
 
 
 const Home = () => {
@@ -27,7 +28,9 @@ const Home = () => {
    
     
           </Canvas>
-          </Suspense>
+        
+          </Suspense>  
+          <Loader />
           </div>
           <Hero />
           <Book />
