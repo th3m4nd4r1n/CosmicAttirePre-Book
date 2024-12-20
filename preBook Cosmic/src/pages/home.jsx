@@ -30,11 +30,12 @@ const Home = () => {
           </Canvas>
         
           </Suspense>  
-          <Loader />
+        
           </div>
           <Hero />
           <Book />
           </div>
+            <Loader />
         </>
       )
 }
