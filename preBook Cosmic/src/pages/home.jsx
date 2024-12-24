@@ -16,7 +16,7 @@ const Home = () => {
 
           <div className="canv"> 
             <Suspense fallback={<boxGeometry />}>
-          <Canvas className='webgl' gl={{antialias: true}} performance={{min: 0.5}}> 
+          <Canvas className='webgl' gl={{antialias: true}} performance={{min: 0.5, max: 1}}> 
         
  
     
