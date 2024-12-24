@@ -155,3 +155,185 @@ iframe.video{
   border-radius: 15px;
   border: 2px solid rgba(245, 222, 179, 0.343) ;
 }
+
+/* Large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-left: 15vw;
+  }
+  
+  button.book, div.blur {
+    right: 70%;
+    width: 286px;
+  }
+}
+
+/* Medium screens (768px to 1199px) */
+@media screen and (max-width: 1199px) {
+  .nav {
+    padding: 10px;
+  }
+
+  button.menu {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .hero {
+    padding-left: 10vw;
+  }
+
+  button.book, div.blur {
+    right: 60%;
+    width: 240px;
+  }
+
+  .card {
+    width: 45vw;
+  }
+}
+
+/* Tablet screens (481px to 767px) */
+@media screen and (max-width: 767px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  button.menu {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero {
+    padding-left: 5vw;
+    height: 70vh;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .desc {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  button.book, div.blur {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .card {
+    width: 90vw;
+    margin: 10px auto;
+  }
+
+  iframe.video {
+    width: 95vw;
+    height: 56.25vw; /* Maintains 16:9 aspect ratio */
+  }
+} 
+
+/* Mobile screens (480px and below) */
+@media screen and (max-width: 700px) {
+  div.hero-title{
+   position: relative;
+   bottom: 10vh;
+   left: 1vw;
+   text-align: center;
+  }
+  p.desc{
+    position: relative;
+    left: 50vw;
+    /* top: 17vh; */
+    bottom: 27vh;
+
+  }
+
+  div.canv{
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    bottom: 4vh;
+    left: 4vw;
+    z-index: 0;
+    
+  }
+  button.book{
+    position: relative;
+    top: 47vh;
+    font-size: 30px;
+    right: 15vw;
+    background-color: rgba(255, 255, 255, 0.687);
+    filter:drop-shadow(0px 0px 30px rgb(255, 255, 255));
+  }
+  div.blur{
+    visibility: hidden;
+  }
+ 
+
+
+  iframe.video {
+    width: 92vw;
+    margin: 4vw;
+    border-radius: 8px;
+
+  }
+}
+
+/* Handle very small screens */
+@media screen and (max-width: 320px) {
+  button.menu {
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  button.book {
+    font-size: 20px;
+    height: 50px;
+    width: 160px;
+  }
+
+  div.blur {
+    height: 50px;
+    width: 160px;
+  }
+}
+
+/* Handle landscape orientation on mobile */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  div.canv {
+    height: 100vh;
+  }
+
+  button.book, div.blur {
+    position: relative;
+    margin: 20px auto;
+  }
+}
