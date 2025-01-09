@@ -3,24 +3,11 @@ import React from "react";
 const Header = () => {
     return(
         <>
-        <ul className="nav">
-            
-            <li>
-                <a href="/"><button className="menu">Home</button></a>
-
-            </li>
-            <li>
-                <a href="/features"><button className="menu">Features</button></a>
-            </li>
-            <li>
-                <a href="/reviews"><button className="menu">Reviews</button></a>
-
-            </li>
-            <li>
-                <a href="/aboutus"><button className="menu">About Us</button></a>
-            </li>
-        </ul>   
-        
+         <nav className="h-24 w-screen bg-translucent nav text-white fixed z-10">
+            <div className="flex justify-center my-[5%] rounded-full">
+<a href="https://www.github.com/th3m4nd4r1n"><button className="bg-blue-500 rounded-full w-[30vw] h-[5vh] hover:bg-green-500 duration-150">Book Now</button></a>
+            </div>
+         </nav>
         </>
     )
 }

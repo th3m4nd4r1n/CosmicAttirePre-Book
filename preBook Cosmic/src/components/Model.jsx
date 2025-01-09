@@ -12,18 +12,13 @@ function max(a,b){
 }
 const Model = () => {
   
-  var scalingFactor = (max(window.innerWidth/1904, 0.5))*0.165;
+  var scalingFactor = (max(window.innerWidth/1350, 0.9))*0.1;
  const viewport = useThree((state) => state.viewport);
  function tick() {
    useFrame((state, delta) => {
-     ref.current.rotation.y = 0.05*Math.cos(state.clock.elapsedTime) + 0.45;
-       refRot.current.position.x = 3*Math.sin(state.clock.elapsedTime)
-       refRot2.current.position.y = -3*Math.sin(state.clock.elapsedTime)
-       refRot.current.position.y = 3*Math.cos(state.clock.elapsedTime)
-       refRot2.current.position.x = -3*Math.cos(state.clock.elapsedTime)
-       refRot.current.position.z = 0.8
-       ref.current.rotation.z = 0.05*Math.sin(state.clock.elapsedTime);
-       ref.current.rotation.x = -0.05*Math.sin(state.clock.elapsedTime);
+     ref.current.rotation.x=window.scrollY*0.005;
+    //  ref.current.rotation.y=window.scrollY*0.001;
+    // ref.current.position.y=-1;
        
     })}
    tick();
