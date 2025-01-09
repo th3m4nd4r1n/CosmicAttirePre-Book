@@ -42,20 +42,20 @@ const Home = () => {
           <div className='h-screen mt-36 text-white '>
            <Hero />
           </div>
-          <div className='text-center flex justify-center z-100 font-kanit h-[150vh] sticky top-0 py-20'>
+          <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20'>
             
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
               STYLISH
             </h3>
 
           </div>
-           <div className='text-center flex justify-center font-kanit h-[150vh] sticky top-0 py-20'>
+           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             PRACTICAL
             </h3>
            </div>
-           <div className='text-center flex justify-center z-100 font-kanit h-[150vh] sticky top-0 py-20'>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             SOCIAL
