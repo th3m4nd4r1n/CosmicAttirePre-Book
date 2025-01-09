@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import React from 'react'
 import ReactDom from 'react-dom/client'
 import Review from './pages/reviews'
-import './App.css'
+// import './App.css'
 import './index.css'
 import { createBrowserRouter,
   RouterProvider,
