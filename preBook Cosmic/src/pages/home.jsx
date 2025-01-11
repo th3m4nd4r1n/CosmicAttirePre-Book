@@ -43,7 +43,7 @@ const Home = () => {
            
           </div> 
           
-          <div className='h-screen mt-36 text-white md:py-[5%] m-0 '>
+          <div className='h-screen mt-36 text-white md:py-[2%] m-0 '>
            <Hero />
           </div>
         
