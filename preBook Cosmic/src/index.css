@@ -17,3 +17,11 @@ body{
   font-family: "kanit", sans-serif;
   font-weight:500
  }
+ .bgCustom{
+  background: linear-gradient(black, rgb(47,47,47), black);
+  z-index: -11;
+ }
+ .bgCustom2{
+  background: linear-gradient(rgb(47,47,47), black);
+  z-index: -11;
+ }

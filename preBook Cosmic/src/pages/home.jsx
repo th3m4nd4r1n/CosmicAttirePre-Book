@@ -5,15 +5,18 @@ import { Environment, OrbitControls } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber' 
 import Book from '../components/bookNow'
 import {lazy, Suspense} from 'react'
-import { Loader } from '@react-three/drei'
+
 
 
 const Home = () => {
     return (
         <>
-
+     
+<div className='bgCustom w-screen h-[200vh] absolute m-0 p-0'>
+          </div>
           <Header />
-          <div className="bigBox">
+
+          <div>
 
           <div className='flex justify-center'> 
         
@@ -39,32 +42,41 @@ const Home = () => {
         
            
           </div> 
-          <div className='h-screen mt-36 text-white '>
+          
+          <div className='h-screen mt-36 text-white md:py-[5%] m-0 '>
            <Hero />
           </div>
-          <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20'>
-            
-            <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
-              STYLISH
-            </h3>
+        
+        
+           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
+            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
-          </div>
-           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20'>
+          
+            </h3>
+           </div>
+           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             PRACTICAL
             </h3>
            </div>
-           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20'>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             SOCIAL
             </h3>
            </div>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
+            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
+
+            
+            </h3>
+           </div>
          
-          <Book />
           </div>
-            <Loader />
+          <Book />
+        
+           
         </>
       )
 }
