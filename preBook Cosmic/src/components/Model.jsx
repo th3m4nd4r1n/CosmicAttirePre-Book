@@ -15,12 +15,18 @@ const Model = () => {
   var scalingFactor = (max(window.innerWidth/1350, 0.9))*1.4;
  const viewport = useThree((state) => state.viewport);
  function tick() {
+  
    useFrame((state, delta) => {
      ref.current.rotation.x=(Math.PI/2)+window.scrollY*0.005;
-     ref.current.rotation.y=-2.2;
-     ref.current.rotation.z=0.5;
-     ref.current.position.x=0.5;
-
+    //  window.onscroll = function(ev) {
+    //   if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+    //     ref.current.position.y=Math.sin(state.clock.elapsedTime);
+    //   } };
+    //  ref.current.rotation.z=0.5;
+     ref.current.position.x=0.1;
+    ref.current.rotation.y=-2.2;
+    
+ 
     //  ref.current.rotation.y=window.scrollY*0.001;
     // ref.current.position.y=-1;
           refRot.current.position.x=Math.sin(state.clock.elapsedTim*0.6);
