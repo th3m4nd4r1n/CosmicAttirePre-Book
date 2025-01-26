@@ -9,6 +9,7 @@ import { createBrowserRouter,
   RouterProvider,
  } from "react-router-dom"
 import Home from './pages/home'
+import Form from './components/Form'
 import Scrolling from './Scrolling'
 
 // import { Scroll } from '@react-three/drei'
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
   
   },
   {
-    path: "/features",
+    path: "/form",
+    element: <Form />
    
   },
   {

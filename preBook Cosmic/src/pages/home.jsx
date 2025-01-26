@@ -11,13 +11,12 @@ import {lazy, Suspense} from 'react'
 const Home = () => {
     return (
         <>
-     
 <div className='bgCustom w-screen h-[200vh] absolute m-0 p-0'>
           </div>
-          <Header />
+          {/* <Header /> */}
 
           <div>
-
+  
           <div className='flex justify-center'> 
         
           <div className='-z-10 w-screen h-screen bg-transparent fixed'>
@@ -43,24 +42,30 @@ const Home = () => {
            
           </div> 
           
-          <div className='h-screen mt-36 text-white md:py-[2%] m-0 '>
+          <div className='h-screen mt-36 text-[rgba(233,205,255)]  m-0 '>
            <Hero />
-          </div>
+          </div>  
         
         
-           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
+           <div className='text-center flex justify-center font-[kanit] h-[100vh] sticky top-0 py-20 md:py-32'>
             <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
           
             </h3>
            </div>
-           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
+           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-[50vh]'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             PRACTICAL
             </h3>
            </div>
-           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-[50vh]'>
+            <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
+
+            SOCIAL
+            </h3>
+           </div>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-[50vh]'>
             <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
 
             SOCIAL
@@ -74,7 +79,7 @@ const Home = () => {
            </div>
          
           </div>
-          <Book />
+          
         
            
         </>
