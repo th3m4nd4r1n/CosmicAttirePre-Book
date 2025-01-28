@@ -32,7 +32,7 @@ const CountDown = ({ targetDate }) => {
     <div>
      
       <div>
-        {timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} : {timeLeft.seconds} 
+       0{timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} : {timeLeft.seconds} 
       </div>
     </div>
   );

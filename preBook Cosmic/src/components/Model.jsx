@@ -23,8 +23,8 @@ const Model = () => {
     //     ref.current.position.y=Math.sin(state.clock.elapsedTime);
     //   } };
     //  ref.current.rotation.z=0.5;
-     ref.current.position.x=0.1;
-    ref.current.rotation.y=-2.2;
+     ref.current.position.x=-0.1;
+    ref.current.rotation.y=(Math.PI/3.4);
     
  
     //  ref.current.rotation.y=window.scrollY*0.001;

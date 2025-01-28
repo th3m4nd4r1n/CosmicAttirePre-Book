@@ -48,36 +48,38 @@ const Home = () => {
         
         
            <div className='text-center flex justify-center font-[kanit] h-[100vh] sticky top-0 py-20 md:py-32'>
-            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
+            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'></h3>
+           </div>
+           <div className='flex justify-between h-screen w-screen'>
 
+           <div className='relative h-[550vh] bg-[#ffd900c4] w-[5vw] blur-[300px]'>
+            </div>
+           <div className='relative h-[550vh] bg-[#ffd900c4] w-[5vw] blur-[300px]'>
+
+            </div>
+           </div>
+           <div className='text-center flex justify-center font-[kanit] h-[150vh] '>
+            <h3 className=' w-[70vw] z-1000 h-fit font-bold rounded-lg text-white text-9xl sticky top-[40vh] font-[league spartan]'>
+            Wear your tech, Share your <span className='text-[#ffd900]'>WORLD.</span>
+            </h3>
+           </div>
+
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] '>
+            <h3 className=' w-[70vw] z-1000 h-fit text-9xl font-bold rounded-lg text-white sticky top-[40vh]'>
+            Always <span className='text-[#ffd900]'>READY</span> 
+no charging, no limits.
+            </h3>
+           </div>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] '>
+            <h3 className=' w-[70vw] z-1000 h-fit text-9xl font-bold rounded-lg text-white sticky top-[40vh]'>
+       
+            Style that thrives, even under<span className='text-[#0097b2]'> Water</span>.
+            </h3>
+           </div>
           
-            </h3>
+           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] py-20 md:py-32'>
+            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg  sticky top-0'></h3>
            </div>
-           <div className='text-center flex justify-center font-[kanit] h-[150vh] sticky top-[50vh]'>
-            <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
-
-            PRACTICAL
-            </h3>
-           </div>
-           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-[50vh]'>
-            <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
-
-            SOCIAL
-            </h3>
-           </div>
-           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-[50vh]'>
-            <h3 className='bg-white w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
-
-            SOCIAL
-            </h3>
-           </div>
-           <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] sticky top-0 py-20 md:py-32'>
-            <h3 className=' w-[50%] z-1000 h-fit text-2xl font-bold rounded-lg'>
-
-            
-            </h3>
-           </div>
-         
           </div>
           
         
