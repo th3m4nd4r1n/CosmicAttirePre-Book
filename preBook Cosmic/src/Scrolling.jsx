@@ -11,7 +11,6 @@ const Scrolling = () => {
 
             <Home />
             <Vid />
-         
             <Loader />
       
         </>

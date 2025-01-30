@@ -44,3 +44,28 @@ body{
   white-space: nowrap;
   /* Prevent text from wrapping */
 }
+@media(min-width:716px){
+  h3.fader{
+    animation: fade-in linear forwards;
+    animation-timeline: view(31vw 30vw);
+    
+    /* animation-range-start: contain;
+    animation-range-end: contain; */
+  }
+  @keyframes fade-in{
+    to{opacity:1;}
+  }
+}
+@media(max-width:450px){
+
+  h3.fader{
+    animation: fade-in linear forwards;
+    animation-timeline: view(71vw 70vw);
+    
+    /* animation-range-start: contain;
+    animation-range-end: contain; */
+  }
+  @keyframes fade-in{
+    to{opacity:1;}
+  }
+}
