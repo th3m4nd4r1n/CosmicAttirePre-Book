@@ -13,7 +13,7 @@ const Hero = () => {
     <h1
         class="relative top-0 w-fit md:h-auto md:text-[25vw] md:justify-center flex md:pb-[15%] pb-[40vh] -z-20 bg-[rgb(142,142,142)] bg-clip-text text-[25vw] font-bold text-transparent text-center select-auto font-[League Spartan]">ALPHA 1</h1>
    
-        <div className="absolute flex h-screen w-screen flex-col justify-start bottom-2 pl-[2vw]" >
+        <div className="absolute flex h-screen w-screen flex-col justify-start md:bottom-2 md:top-0 bottom-0 pl-[2vw]" >
             <img src="/cosmic_logo.jpg" alt="cosmic logo" className="h-[110px] w-[110px]" />
         </div>
         <div className="absolute flex w-[96vw] justify-end h-screen top-10 items-start">
