@@ -48,9 +48,9 @@ const Home = () => {
                 </div>
                 <div className='flex justify-between h-screen w-screen'>
 
-                    <div className='relative h-[550vh] bg-[#ffd900c4] md:w-[5vw] w-[4vw] blur-[50px] md:blur-[300px]'>
+                    <div className='relative h-[550vh] bg-[#ffd900c4] md:w-[5vw] w-[4vw] blur-[100px] md:blur-[300px]'>
                     </div>
-                    <div className='relative h-[550vh] bg-[#ffd900c4] md:w-[5vw] w-[4vw] blur-[50px] md:blur-[300px]'>
+                    <div className='relative h-[550vh] bg-[#ffd900c4] md:w-[5vw] w-[4vw] blur-[100px] md:blur-[300px]'>
 
                     </div>
                 </div>
