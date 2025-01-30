@@ -55,19 +55,19 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='text-center flex justify-center font-[kanit] h-[150vh] '>
-                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit font-bold  rounded-lg text-white md:text-9xl sticky top-[30vh] text-5xl md:top-[40vh] font-[league spartan]'>
+                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit font-bold  rounded-lg text-white md:text-9xl sticky top-[30vh] text-5xl md:top-[40vh] font-[kanit]'>
                         Wear your tech, Share your <span className='text-[#ffd900]'>WORLD.</span>
                     </h3>
                 </div>
 
                 <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] '>
-                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit md:text-9xl font-bold rounded-lg text-white sticky top-[30vh] text-5xl md:top-[35vh]'>
+                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit md:text-9xl font-bold rounded-lg font-[kanit] text-white sticky top-[30vh] text-5xl md:top-[35vh]'>
                         Always <span className='text-[#ffd900]'>READY </span>
                         no charging, no limits.
                     </h3>
                 </div>
                 <div className='text-center flex justify-center z-100 font-[kanit] h-[150vh] '>
-                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit md:text-9xl font-bold rounded-lg text-white sticky top-[30vh] text-5xl md:top-[35vh]'>
+                    <h3 className='fader opacity-0 w-[70vw] z-1000 h-fit md:text-9xl font-bold rounded-lg font-[kanit] text-white sticky top-[30vh] text-5xl md:top-[35vh]'>
 
                         Style that thrives, even under<span className='text-[#0097b2]'> WATER</span>.
                     </h3>

@@ -13,15 +13,15 @@ const Hero = () => {
     <h1
         class="relative top-0 w-fit md:h-auto md:text-[25vw] md:justify-center flex md:pb-[15%] pb-[40vh] -z-20 bg-[rgb(142,142,142)] bg-clip-text text-[25vw] font-bold text-transparent text-center select-auto font-[League Spartan]">ALPHA 1</h1>
    
-        <div className="absolute flex h-screen w-screen flex-col justify-start md:bottom-2 md:top-0 bottom-0 top-3 pl-[2vw]" >
+        <div className="absolute flex h-screen w-screen flex-col justify-start md:bottom-2 md:top-0 bottom-0 top-2 pl-[2vw]" >
             <img src="/cosmic_logo.jpg" alt="cosmic logo" className="h-[110px] w-[110px]" />
         </div>
         <div className="absolute flex w-[96vw] justify-end h-screen top-10 items-start">
             <a href="/form"><button className="w-fit font-[League Spartan] text-[24px] hover:animate-pulse text-white hover:text-[30px] duration-100 ease-linear uppercase font-semibold">Book Now</button></a>
         </div>
-        <div className="absolute flex justify-start w-screen h-[60vh] text-lg items-end bottom-16 md:bottom-16">
+        <div className="absolute flex md:justify-start justify-center w-screen h-[60vh] text-lg items-end bottom-16 md:bottom-16">
 
-<h3 className="md:w-[400px] md:pl-[2vw] text-white font-[League_Spartan] text-center md:text-left">
+<h3 className="md:w-[400px] w-[95vw] md:pl-[2vw] text-white font-[kanit] text-center md:text-left change_of_font">
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex minus perspiciatis, velit quo repudiandae laudantium aperiam quis voluptatem vitae, culpa distinctio veniam?
 </h3>
         </div>

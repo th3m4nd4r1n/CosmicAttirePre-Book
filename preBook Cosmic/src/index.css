@@ -48,6 +48,7 @@ body{
   h3.fader{
     animation: fade-in linear forwards;
     animation-timeline: view(31vw 30vw);
+    font:"League Spartan", serif;
     
     /* animation-range-start: contain;
     animation-range-end: contain; */
@@ -61,11 +62,16 @@ body{
   h3.fader{
     animation: fade-in linear forwards;
     animation-timeline: view(71vw 70vw);
+    font:"League Spartan", serif;
     
     /* animation-range-start: contain;
     animation-range-end: contain; */
   }
   @keyframes fade-in{
     to{opacity:1;}
+  }
+  h3.change_of_font{
+    font-family: "League Spartan", serif;
+ 
   }
 }
