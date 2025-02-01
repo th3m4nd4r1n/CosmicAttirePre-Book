@@ -25,7 +25,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/form",
-    element: <Form />
+    element: <Form />,
+    errorElement: <div className='text-white font-9xl'>Hey! we encountered and error</div>
    
   },
  
